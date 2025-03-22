@@ -33,11 +33,11 @@
 * How to install dependencies
   `pip install numpy pandas scikit-learn`
 * How to set up the environment
-  Make sure you have python installed
+ * Make sure you have python installed
 * How to access the dataset(s)
-  Visit the kaggle page, under [data](https://www.kaggle.com/competitions/widsdatathon2025/data) download the dataset
+  * Visit the kaggle page, under [data](https://www.kaggle.com/competitions/widsdatathon2025/data) download the dataset
 * How to run the notebook or scripts
-  It's a notebook so you can just press the run icon on the side
+  * It's a notebook so you can just press the run icon on the side
 
 ---
 
@@ -45,9 +45,9 @@
 
 **Describe:**
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+* WiDS Datathon 2025 is a competition that uses machine learning to predict sex and ADHD diagnoses based on brain activity and scio-demographic information. The sigificance of this competition is in the ability to better understand ADHD and neurological diseases.
+* The objective of the competition is to predict whether patients have ADHD based on brain activity, this can help with diagnosing ADHD earlier and help with accuracy (avoid misdiagnoses). 
+* The impact of this work is that it can lead to better treatment and more targeted treatment. It helps with understanding the different brain waves that are associated with ADHD based on gender. It can help avoid misdiagnoses and reduce the time and resources it takes to diagnose ADHD using ML/AI.
 
 ---
 
@@ -55,11 +55,12 @@
 
 **Describe:**
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
+* The dataset used is the one found in the kaggle competition, it consists of brain activity collected from individuals diagnosed with ADHD and individuals who weren't diagnosed with ADHD. The data is collected through functional MRI and consists of the labels (sex and diagnoses), socio-demographic information, and functional MRI connectome matrices.
 * Data exploration and preprocessing approaches
+  * We cleaned our data by handling missing values, and standarizing our training data.
 * Challenges and assumptions when working with the dataset(s)
 
-**Potential visualizations to include:**
+** Visualizations:**
 
 * Plots, charts, heatmaps, feature visualizations, sample dataset images
 
@@ -70,7 +71,9 @@
 **Describe (as applicable):**
 
 * Model(s) used (e.g., CNN with transfer learning, regression models)
+  * We used logistic regression as our baseline model and then we used multioutput random forest model as our final submission. Ridge classifer allows us to tackle linear relationships. Then Random Forest allows us to capture more complex patterns. Thus using a stacking classifer will allow us to combine ridge and random forest classfier to get the best performance.
 * Feature selection and Hyperparameter tuning strategies
+  * For feature selection we removed features that had high correlation to each other and then we used Gridsearch to tune the hyperparameters.
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
 
 ---
@@ -105,7 +108,7 @@
 
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
-  Try out more different models.
+  *Try out more different models, espeically with the new training data set. 
 * What additional datasets or techniques would you explore?
 
 ---
