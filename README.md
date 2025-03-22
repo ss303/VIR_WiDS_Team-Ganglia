@@ -28,13 +28,16 @@
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
 * How to clone the repository
-  ```git clone https://github.com/ss303/VIR_WiDS_Team-Ganglia.git
-     cd VIR_WiDS_Team-Ganglia```
+  `git clone https://github.com/ss303/VIR_WiDS_Team-Ganglia.git`
+  `cd VIR_WiDS_Team-Ganglia`
 * How to install dependencies
-  `ip install numpy pandas scikit-learn`
+  `pip install numpy pandas scikit-learn`
 * How to set up the environment
+  Make sure you have python installed
 * How to access the dataset(s)
+  Visit the kaggle page, under [data](https://www.kaggle.com/competitions/widsdatathon2025/data) download the dataset
 * How to run the notebook or scripts
+  It's a notebook so you can just press the run icon on the side
 
 ---
 
@@ -102,13 +105,14 @@
 
 * What are some of the limitations of your model?
 * What would you do differently with more time/resources?
+  Try out more different models.
 * What additional datasets or techniques would you explore?
 
 ---
 
 ## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
+* n/a
 
 ---
 
