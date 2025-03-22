@@ -7,7 +7,7 @@
 | Dineshman Bajracharya | @? | Fill in |
 | Grace Yang | @gy180 | fill in |
 | Sunny Sun | @ss303 | fill in |
-| Sadia Sharmin | @? | fill in |
+| Sadia Sharmin | @ssharmin28 | fill in |
 
 ---
 
