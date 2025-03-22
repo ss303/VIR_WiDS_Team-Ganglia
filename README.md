@@ -17,7 +17,6 @@
 
 * Built a Random Forest Model using multiclass Ridge Classifier, Random Forest, and Stacking Classifier to solve WiDS Datathon 2025 about predicting sex and ADHD diagnoses.
 * Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
-* Used \[explainability tool\] to interpret model decisions
 * Implemented column transformations, MinMax scaling, and hyperparameter tuning (grid search) to optimize results within compute constraints
 
 🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
@@ -29,8 +28,10 @@
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
 * How to clone the repository
-* `git clone https://github.com/ss303/VIR_WiDS_Team-Ganglia.git`
+  ```git clone https://github.com/ss303/VIR_WiDS_Team-Ganglia.git
+     cd VIR_WiDS_Team-Ganglia```
 * How to install dependencies
+  `ip install numpy pandas scikit-learn`
 * How to set up the environment
 * How to access the dataset(s)
 * How to run the notebook or scripts
