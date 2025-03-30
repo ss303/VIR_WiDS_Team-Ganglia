@@ -65,12 +65,10 @@
 
 ## **📈 Results & Key Findings**
 
-**Describe (as applicable):**
-
-*F1 Score: 0.71
+* F1 Score: 0.71
 * Kaggle Leaderboard Score: 355
-* 
 
+  
 ## **🖼️ Impact Narrative**
 
 1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
@@ -82,11 +80,11 @@
 ## **🚀 Next Steps & Future Improvements**
 
 * What are some of the limitations of your model?
-  *Removing highly correlated features may remove important features. We do not have any train-validation split, so the model may have weak generability
+  * Removing highly correlated features may remove important features. We do not have any train-validation split, so the model may have weak generability
 * What would you do differently with more time/resources?
-  *Try out more different models, especially with the new training data set. 
+  * Try out more different models, especially with the new training data set. 
 * What additional datasets or techniques would you explore?
-  *WiDS introduced a new training dataset close to the end of this project, we would like to explore it more to understand how the new data affects our model and how we can improve our score.
+  * WiDS introduced a new training dataset close to the end of this project, we would like to explore it more to understand how the new data affects our model and how we can improve our score.
 
 ---
 
