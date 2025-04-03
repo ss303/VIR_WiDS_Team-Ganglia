@@ -5,7 +5,7 @@
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
 | Grace Yang | @gy180 | Handled statistical summary and looking for outliers. Also handled standarization and drafting the readme file. |
-| Sunny Sun | @ss303 | fill in |
+| Sunny Sun | @ss303 | Handled dataset import and model establishement. Caculated data correlation and derived decisions on feature elimination. Established the base multioutput classification model. |
 | Sadia Sharmin | @ssharmin28 | Handled null data and model testing. Made improvements, such as parameter testing and implementing ensemble methods, to the model to increase accuracy. |
 
 ---
